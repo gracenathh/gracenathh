@@ -1,7 +1,7 @@
 - 👋 Hello, there! I'm Grace — a Computer Science undergraduate in Monash University Malaysia
 - 👀 I’m interested in Data Science because it's fun!
 - 🌱 I’m currently studying Advanced Computer Science minoring in Data Science
-- 📫 How to reach me: gnat0001@student.monash.edu or connect with me on <a href = "https://www.linkedin.com/in/gracenathh/" target="_blank">LinkedIn</a>
+- 📫 How to reach me: gnat0001@student.monash.edu or connect with me on <a href = "https://www.linkedin.com/in/gracenathh/">LinkedIn</a>
 - 📍 Subang Jaya, Malaysia / Bandung, Indonesia
 - 🔗 https://gracenathh.github.io/gracenathh/
 
