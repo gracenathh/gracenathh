@@ -3,7 +3,7 @@
 - 🌱 I’m currently studying Advanced Computer Science minoring in Data Science
 - 📫 How to reach me: gnat0001@student.monash.edu or connect with me on <a href = "https://www.linkedin.com/in/gracenathh/" target="_blank">LinkedIn</a>
 - 📍 Subang Jaya, Malaysia / Bandung, Indonesia
-- <i class="fas fa-link"></i> https://gracenathh.github.io/gracenathh/
+- <span><i class="fas fa-link"></i></span> https://gracenathh.github.io/gracenathh/
 
 pssttt... Just in case you are curious about Mondelēz LOKAL on my profile picture, it is a website prototype, created on Figma, that brings my team and I as a semi finalist in Mondelēz Leading Edge Business Challenge for Malaysia and Singapore market 😆
 
