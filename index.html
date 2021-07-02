@@ -13,7 +13,34 @@
     <meta name="image" property="og:image" content="https://raw.githubusercontent.com/gracenathh/gracenathh/main/images/landingpage.PNG"/>
     <meta name="description" property="og:description" content="Grace Nathania's Personal Website" />
     <meta name="author" content="Grace Nathania" />
-    
+
+    <script>
+      document.addEventListener('DOMContentLoaded', () => {
+
+      // Get all "navbar-burger" elements
+      const $navbarBurgers = Array.prototype.slice.call(document.querySelectorAll('.navbar-burger'), 0);
+
+      // Check if there are any navbar burgers
+      if ($navbarBurgers.length > 0) {
+
+        // Add a click event on each of them
+        $navbarBurgers.forEach( el => {
+          el.addEventListener('click', () => {
+
+            // Get the target from the "data-target" attribute
+            const target = el.dataset.target;
+            const $target = document.getElementById(target);
+
+            // Toggle the "is-active" class on both the "navbar-burger" and the "navbar-menu"
+            el.classList.toggle('is-active');
+            $target.classList.toggle('is-active');
+
+          });
+        });
+      }
+
+      });
+    </script>
     <style>
 .hero{
   background: linear-gradient(rgba(255, 255, 255,.15), rgba(255, 255, 255,.15)), url(images/studydesk.jpg) center / cover;
@@ -22,34 +49,48 @@
 </head>
 
 <body>
-  <nav class="navbar is-desktop">
-  <div class="container">
-    <div class = "navbar-start my-auto">
-      <p class = "has-text-weight-medium">GRACE NATHANIA</p>
-    </div>
-    
-    <div class = "navbar-end">
-      <a href = "index.html" class="navbar-item has-text-weight-semibold">
-        Home
-      </a>
-      <a href = "about.html" class="navbar-item">
-        About
-      </a>
-      <a href = "projects.html" class="navbar-item">
-        Projects
-      </a>
-      <a href = "experiences.html" class="navbar-item">
-        Experiences
-      </a>
-      <a href = "activities.html" class="navbar-item">
-        Activities
-      </a>
-      <a href = "contact.html" class="navbar-item">
-        Contact
+  <nav class="navbar has-shadow" role="navigation" aria-label="main navigation">
+    <div class="navbar-brand">
+      <p class = "has-text-weight-medium my-auto ml-3">GRACE NATHANIA</p>
+  
+      <a role="button" class="navbar-burger" aria-label="menu" aria-expanded="false" data-target="navbarBasicExample">
+        <span aria-hidden="true"></span>
+        <span aria-hidden="true"></span>
+        <span aria-hidden="true"></span>
       </a>
     </div>
-  </div>
-</nav>
+  
+    <div id="navbarBasicExample" class="navbar-menu">
+      <div class="navbar-end">
+        <a href = "index.html" class="navbar-item has-text-weight-semibold">
+          Home
+        </a>
+        <a href = "about.html" class="navbar-item">
+          About
+        </a>
+        <a href = "projects.html" class="navbar-item">
+          Projects
+        </a>
+        <a href = "experiences.html" class="navbar-item">
+          Experiences
+        </a>
+        <a href = "activities.html" class="navbar-item">
+          Activities
+        </a>
+        <a href = "contact.html" class="navbar-item">
+          Contact
+        </a>
+
+        <div class="navbar-item">
+          <div class="buttons">
+            <a href = "documents/GRACE NATHANIA_RESUME.pdf" target = "_blank" class = "button" style = "background-color:#EECB9A; border: 0;">
+              Download Resume
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </nav>
 
   <section class = "hero is-fullheight-with-navbar">
     <div class="hero-body">
@@ -67,7 +108,7 @@
                   <p class = "title is-6">My Projects</p>
                   <p class = "subtitle is-7">check them out</p>
                   <span class = "icon is-medium has-text-grey">
-                    <i class = "fab fa-github fa-2x">
+                    <i class = "fab fa-github-alt fa-2x">
                     </i>
                   </span>
                 </article>
