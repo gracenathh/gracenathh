@@ -7,6 +7,34 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.3/css/bulma.min.css">
     <script defer src="https://use.fontawesome.com/releases/v5.0.7/js/all.js"></script>
     <!--<link rel="stylesheet" href="styles/debug.css">-->
+    <script>
+      document.addEventListener('DOMContentLoaded', () => {
+
+      // Get all "navbar-burger" elements
+      const $navbarBurgers = Array.prototype.slice.call(document.querySelectorAll('.navbar-burger'), 0);
+
+      // Check if there are any navbar burgers
+      if ($navbarBurgers.length > 0) {
+
+        // Add a click event on each of them
+        $navbarBurgers.forEach( el => {
+          el.addEventListener('click', () => {
+
+            // Get the target from the "data-target" attribute
+            const target = el.dataset.target;
+            const $target = document.getElementById(target);
+
+            // Toggle the "is-active" class on both the "navbar-burger" and the "navbar-menu"
+            el.classList.toggle('is-active');
+            $target.classList.toggle('is-active');
+
+          });
+        });
+      }
+
+      });
+    </script>
+
     <style>
 .center {
 	display: flex;
@@ -27,34 +55,48 @@
 </head>
 
 <body>
-  <nav class="navbar has-shadow">
-  <div class="container">
-    <div class = "navbar-start my-auto">
-      <p class = "has-text-weight-medium">GRACE NATHANIA</p>
-    </div>
-    
-    <div class = "navbar-end">
-      <a href = "index.html" class="navbar-item">
-        Home
-      </a>
-      <a href = "about.html" class="navbar-item">
-        About
-      </a>
-      <a href = "projects.html" class="navbar-item  has-text-weight-semibold">
-        Projects
-      </a>
-      <a href = "experiences.html" class="navbar-item">
-        Experiences
-      </a>
-      <a href = "activities.html" class="navbar-item">
-        Activities
-      </a>
-      <a href = "contact.html" class="navbar-item">
-        Contact
+  <nav class="navbar has-shadow" role="navigation" aria-label="main navigation">
+    <div class="navbar-brand">
+      <p class = "has-text-weight-medium my-auto ml-3">GRACE NATHANIA</p>
+  
+      <a role="button" class="navbar-burger" aria-label="menu" aria-expanded="false" data-target="navbarBasicExample">
+        <span aria-hidden="true"></span>
+        <span aria-hidden="true"></span>
+        <span aria-hidden="true"></span>
       </a>
     </div>
-  </div>
-</nav>
+  
+    <div id="navbarBasicExample" class="navbar-menu">
+      <div class="navbar-end">
+        <a href = "index.html" class="navbar-item">
+          Home
+        </a>
+        <a href = "about.html" class="navbar-item">
+          About
+        </a>
+        <a href = "projects.html" class="navbar-item has-text-weight-semibold">
+          Projects
+        </a>
+        <a href = "experiences.html" class="navbar-item">
+          Experiences
+        </a>
+        <a href = "activities.html" class="navbar-item">
+          Activities
+        </a>
+        <a href = "contact.html" class="navbar-item">
+          Contact
+        </a>
+
+        <div class="navbar-item">
+          <div class="buttons">
+            <a href = "documents/GRACE NATHANIA_RESUME.pdf" target = "_blank" class = "button" style = "background-color:#EECB9A; border: 0;">
+              Download Resume
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </nav>
 
 <section class="section is-paddingless-horizontal pb-0">
     <div class="container grid">
