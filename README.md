@@ -1,4 +1,4 @@
-- 👋 Hello, there! I'm Grace — a Computer Science graduate in Monash University Malaysia
+- 👋 Hello, there! I'm Grace — a Computer Science graduate from Monash University Malaysia
 - 👀 I’m interested in Data Science because it's fun!
 - 💼 I'm currenly working as a Business Intelligent (which is a combination of what I like!)
 - 🌱 I studied Advance Computer Science minoring in Data Science
