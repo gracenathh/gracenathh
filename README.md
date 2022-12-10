@@ -2,7 +2,7 @@
 - 👀 I’m interested in Data Science because it's fun!
 - 💼 I'm currenly working as a Business Intelligent (which is a combination of what I like!)
 - 🌱 I studied Advanced Computer Science minoring in Data Science
-- 📫 How to reach me: gnat0001@student.monash.edu or connect with me on <a href = "https://www.linkedin.com/in/gracenathh/">LinkedIn</a>
+- 📫 How to reach me: gracenathh@gmail.com or connect with me on <a href = "https://www.linkedin.com/in/gracenathh/">LinkedIn</a>
 - 📍 Kuala Lumpur, Malaysia / Bandung, Indonesia
 - 🔗 https://gracenathh.github.io/gracenathh/
 
